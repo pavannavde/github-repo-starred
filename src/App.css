@@ -1,0 +1,23 @@
+.home{
+ display: flex;
+ flex-direction: column;
+ background: #000;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    background-color:tomato;
+    position: sticky;
+    top: 0;
+    z-index: 10000;
+}
+.errorDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 90vh;
+    color: red;
+    background-color: #000;
+    font-size: 36px;
+}
